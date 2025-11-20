@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import Partei from './components/Parteien.jsx'
+import Parteien from "./components/Parteien.jsx";
 
 function App() {
   return (
     <>
-        <Partei/>
+        <Parteien parteien={["partei"]}/>
     </>
   )
 }

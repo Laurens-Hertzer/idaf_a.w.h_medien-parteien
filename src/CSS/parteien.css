@@ -1,3 +1,26 @@
+body {
+    background-image: linear-gradient(to right, rgb(0, 0, 255) 25%, yellow 50%, rgb(255, 0, 0) 80%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#arrow_down {
+    border: 1px black solid;
+    rotate: 90deg;
+    position: relative;
+}
+
+#arrow_bidirectional {
+    width: 1600px;
+    height: 165px;
+    position: absolute;
+    top: -30px;
+    left: -161px;
+}
+
 span {
-    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    font-family: Algerian;
 }
