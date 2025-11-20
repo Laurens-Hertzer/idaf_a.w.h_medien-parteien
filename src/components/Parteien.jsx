@@ -13,7 +13,6 @@ export default function Parteien({parteien}) {
                 <span id="arrow_down"></span>
                 <img src="/src/assets/arrow_left_right.png" id="arrow_bidirectional"/>
                 <span>Parteien Orientation</span>
-
             </div>
         </>
     )

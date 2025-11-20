@@ -1,5 +1,5 @@
 import Partei from "./Partei.jsx";
-import "/public/dieMitte.png"
+// import "/public/dieMitte.png"
 
 export default function DieMitte() {
     return (

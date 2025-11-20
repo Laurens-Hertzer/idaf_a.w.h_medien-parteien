@@ -1,8 +1,8 @@
 import "bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
-import Parteien from "./components/Parteien.jsx";
-import DieMitte from "./components/DieMitte.jsx";
+import Parteien from "/src/components/Parteien.jsx";
+import DieMitte from "/src/components/DieMitte.jsx";
 
 function App() {
 
