@@ -2,10 +2,10 @@ import "/src/CSS/parteien.css"
 
 export default function Parteien({parteien}) {
 
-    function place_parties({parteien}) {
+    /*function place_parties({parteien}) {
         console.log(parteien[0])
     }
-    place_parties({parteien})
+    place_parties({parteien})*/
 
     return (
         <>
