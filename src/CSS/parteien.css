@@ -1,4 +1,4 @@
-body {
+.parteienBody {
     background-image: linear-gradient(to right, rgb(0, 0, 255) 25%, yellow 50%, rgb(255, 0, 0) 80%);
     overflow-x: hidden;
     overflow-y: hidden;
@@ -11,10 +11,10 @@ body {
 }
 
 #arrow_bidirectional {
-    width: 1900px;
-    height: 300px;
+    width: 1600px;
+    height: 150px;
     position: absolute;
-    top: -30px;
+    top: 30px;
     left: -161px;
 }
 
@@ -24,3 +24,4 @@ span {
     font-size: 1.8em;
     font-family: Algerian;
 }
+
