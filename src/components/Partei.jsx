@@ -11,6 +11,7 @@ export default function Partei({
                                    bgMiddle,
                                    orientation,
                                    orientation_tiefe,
+                                   href
                                }) {
     return (
         <div className="container-fluid py-5" style={{backgroundColor: bgMain}}>
@@ -28,8 +29,9 @@ export default function Partei({
                     {picLeft && (<img
                         src={picLeft}
                         alt="Left Logo"
-                        className="img-fluid"
-                        style={{maxWidth: "150px"}}
+
+                        width={150}
+                        height={130}
                     />)}
                 </div>
 
@@ -54,8 +56,8 @@ export default function Partei({
                         <img
                             src={picRight}
                             alt="Right Logo"
-                            className="img-fluid"
-                            style={{maxWidth: "150px"}}
+                            width={150}
+                            height={130}
                         />)}
                 </div>
             </div>
